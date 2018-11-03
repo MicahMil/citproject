@@ -6,6 +6,16 @@
 	<meta name="keywords" content="Python, programming, language" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="citproject.css" rel="stylesheet" />	
+	
+	<script type="text/javascript">
+	var image1= new Image()
+	image1.src="pythonexample1.png"
+	var image2= new Image()
+	image2.src="pythonexample2.jpg"
+	var image3= new Image()
+	image3.src="pythonexample3.png"
+	
+	</script>
 </head>
 <body>
 <div style="min-width: 1125px; margin: 0 auto;">
@@ -44,12 +54,17 @@ document.write(today);
 
 </div>
 -->
+<h3> Brief Explanation of Python </h3>
+<p class="summary">Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. 
+Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for 
+Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together.
+Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. 
+Python supports modules and packages, which encourages program modularity and code reuse. The Python interpreter and the
+ extensive standard library are available in source or binary form without charge for all major platforms, and can be freely
+ distributed. </p>
 
-<p> Here you will learn about the Python Programming Language. </p>
-
-	
-	
-	<h2 id="h2code"> Some Python Code </h2>
+ 
+ <h2 id="h2code"> Some Python Code </h2>
 	<div id="codebox"> Here is a small look into the way that
 					   Python code is written. It is written 
 					   in a more person-freindly way, rather 
@@ -57,7 +72,47 @@ document.write(today);
 					   
 	</div>
 	<br>
-	<img id="codeimage" src="codebox.jpg" alt="Python Code" height="300" width="400">
+<!--	
+	<div class="row">
+  <div class="column">
+    <img src="pythonexample1.png" alt="Python Code" width="330" height="200">
+  </div>
+  <div class="column">
+    <img src="pythonexample2.jpg" alt="Python Code" width="330" height="200">
+  </div>
+</div>
+	
+	<ul id="slides">
+	<li class="slide showing"></li>
+	<li class="slide"></li>
+	<li class="slide"></li>
+	
+</ul>
+-->
+
+
+<img src="pythonexample1.png" id="slide" width="300" height="300"> <br>
+
+
+<br>
+
+	<script type="text/javascript">
+	
+	var step = 1
+	function slideit(){
+	document.images.slide.src=eval("image"+step+".src")
+	if (step < 3)
+	step++
+	else
+	step = 1
+	setTimeout("slideit()", 4000)
+	}
+	window.onload = slideit()
+	
+
+
+	</script>
+	
 	<br>
 	<hr>
 
