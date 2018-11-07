@@ -24,12 +24,18 @@ h1 {
 }
 #nav a:link {color: #FFFFFF; }
 #nav a:visited { color: #FFFFFF; }
-#nav a:hover { color: #FFCC00; }
+#nav a:hover { color: #3399FF; }
 
 #nav {
 	text-align: center;
 	margin: 10px;
 }
+
+a:link {color: #FFFFFF; }
+a:visited {color: #3399FF; }
+a:hover { color: #FFCC00; }
+
+
 p {
 	position: relative;
 	font-size: 1em;
@@ -39,7 +45,7 @@ p {
 
 main { 
 	   position: relative;
-	   margin: 100px;
+	   
 	   margin-left: auto;
 	   margin-right: auto;
 	   margin-bottom: 10px;
@@ -52,27 +58,38 @@ main {
 	   
 }
 
-footer {text-align: center;
-        
-		color: #FFCC00;
-}
 
-#date{
-	text-align:right;
-	margin-right: 10px;
-	color:#FFCC00;
-}
+
+
 #authors {
 	font-size: 0.8em;
 	text-align: center;
-	margin-bottom: 10px;
-}
-#box1 {
-	
+	padding: 5px;
+	border-top-style: solid;
+	border-top-width: 5px;
+	background-color: #333333;
+	color: #FFFFFF;
+	}
+p.historyBox {	
 	text-indent: 5ch;
 	margin-left: 0px;
 	padding: 5px ;
-	font-family: serif;
+}
+p.versionBox {
+	padding: 5px ;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+img {	 
+	
+	border: solid white 1px;
+	padding: 7px;	
+	margin: 0px 15px 15px 15px;
+	float: left;
+	word-wrap: break-word;
+	margin-right: 10px;
+	margin-bottom: 5px;
 }
 #box2 {
 	
@@ -81,37 +98,31 @@ footer {text-align: center;
 	padding: 5px ;
 	
 }
-#codebox {
-	
-	text-indent: 5ch;
-	margin: 0px;
-	padding: 5px;
-	}
-
 #codeimage {
 	border-radius: 15px;
 	display: block;
     margin-left: auto;
     margin-right: auto;
 }
-#h2code {
+#h3code {
 	text-align: center;
-	
+	margin: 0;
 	color: #FFCC00;
 }
-#h2history {
+h3.h3history {
 	text-align: center;
 	color: #FFCC00;
 }
+
 h3 {
 	text-align: center;
 	color: #FFCC00;
 }
-.simple {
+b.simple {
 	color: #FFCC00;
 	font-size: 17px;
 }
-.why {
+p.why {
 	text-align: center;
 	font-weight: bold;
 	font-size: 20px;
@@ -119,96 +130,60 @@ h3 {
 	padding: 5px;
 	margin: 0px;
 	}
-.whypythonbox {
+div.whypythonbox {
 	border-style: none;
 	margin-left: auto;
 	margin-right:auto;
-	width: 70%;
+	width: 85%;
 	
 }
-.summary {
-	margin-left: 5px;
+p.summary {
 	padding: 5px;
 	text-indent: 5ch;
-	margin-left: auto;
-	margin-right:auto;
+	margin:auto;
+	border-style: none;
+	width: 90%;	
+}
+
+
+iframe {
+	margin-left: 50px;
+	display: block;
+	margin: 0 auto;	
+}
+#video {
+	border-style: solid;
+	border-width:1px;
+	border-radius: 10px;
+	margin: auto;
+	width: 80%;	
+}
+
+p.powerOfPython {
+	margin: auto;
+	text-indent: ch;
 	width: 80%;
 }
-.column {
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 5px;
+img.applicationPic {
+	border: solid white 1px;
+	padding: 10px;	
+	margin: 15px;
+	float: right;
+	word-wrap: break-word;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	
 }
-img {
-	margin-left: 100px;
-	margin-right: 100px;
-	width: 70%;
+dl.description {
+	margin-left: 15px;
+	text-indent: 5ch;
 	
 }
 
 
-
-/*
-essential styles:
-these make the slideshow work
-
-
-
-#slides{
-	position: relative;
-	height: 150px;
-	padding: 0px;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
-	list-style-type: none;
-	border-style: none;
 	
-}
-
-.slide{
-	position: absolute;
-	left: 40px;
-	top: 0px;
-	width: 100%;
-	height: 100%;
-	opacity: 0;
-	z-index: 1;
-	margin-left: auto;
-	margin-right: auto;
-	width: 120%;
-	height: 150%;
-
-	-webkit-transition: opacity 1s;
-	-moz-transition: opacity 1s;
-	-o-transition: opacity 1s;
-	transition: opacity 1s;
-}
-
-.showing{
-	opacity: 1;
-	z-index: 2;
-}
 
 
 
-
-non-essential styles:
-just for appearance; change whatever you want
-
-
-
-
-.slide:nth-of-type(1){
-	background-image: url("pythonexample1.png");
-}
-.slide:nth-of-type(2){
-	background-image: url("pythonexample2.jpg");
-}
-.slide:nth-of-type(3){
-	background-image: url("pythonexample3.png");
-}
-*/
 
 
