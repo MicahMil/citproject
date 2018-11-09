@@ -1,6 +1,8 @@
 ﻿
 body {
-background-image: url("background.jpg");
+background-image: url("backgroundPython.jpg");
+background-repeat: no-repeat;
+background-size: cover;
 color:white;
 
 }
@@ -45,7 +47,6 @@ p {
 
 main { 
 	   position: relative;
-	   
 	   margin-left: auto;
 	   margin-right: auto;
 	   margin-bottom: 10px;
@@ -57,10 +58,6 @@ main {
 	   background-color: #000000;
 	   
 }
-
-
-
-
 #authors {
 	font-size: 0.8em;
 	text-align: center;
@@ -130,13 +127,7 @@ p.why {
 	padding: 5px;
 	margin: 0px;
 	}
-div.whypythonbox {
-	border-style: none;
-	margin-left: auto;
-	margin-right:auto;
-	width: 85%;
-	
-}
+
 p.summary {
 	padding: 5px;
 	text-indent: 5ch;
@@ -144,7 +135,19 @@ p.summary {
 	border-style: none;
 	width: 90%;	
 }
-
+p.homePageP {
+	padding: 5px;
+	text-indent: 5ch;
+	margin: 20px;
+}
+	
+div.whypythonbox {
+	border-style: none;
+	margin-left: auto;
+	margin-right:auto;
+	width: 85%;
+	
+}
 
 iframe {
 	margin-left: 50px;
@@ -173,6 +176,10 @@ img.applicationPic {
 	margin-right: 10px;
 	margin-bottom: 5px;
 	
+}
+img.homePageImage {
+	padding: 5px;
+	margin: 15px;
 }
 dl.description {
 	margin-left: 15px;
