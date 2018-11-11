@@ -1,0 +1,18 @@
+Performed by Vincent 11/8 - 11/11
+
+Created new css files: history, homepage, whatcanitdo, and whypython
+
+Linked all html files to their personal .css
+
+Changed opening h3 headers to h2 headers in files: history.html, homepage.html, and whatcanitdo.html
+	//Felt too small to be page header
+	//Also need h3 headers on whatcanitdo so that there could be sub-headers
+
+In citproject.css
+	Added appropriate code fo h2 headers
+	Changed h1 image
+		background-size: cover -> contained;       // It was clipping off the word 'Python' on my screen,  this should fix that
+	Moved certain parts to files: history.css, homepage.css, whatcanitdo.css, and whypython.css
+		//There was a ton of stuff in there that was specific to certain files
+		//Scince these files didn't need each others stuff, I linked them each
+		//To their own personal stylesheet as well

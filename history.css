@@ -1,0 +1,19 @@
+﻿p.historyBox {	
+	text-indent: 5ch;
+	margin-left: 0px;
+	padding: 5px ;
+}
+p.versionBox {
+	padding: 5px ;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+h2.h2history {
+	text-align: center;
+	color: #FFCC00;
+}
+h3.h3history {
+	text-align: center;
+	color: #FFCC00;
+}

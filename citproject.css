@@ -1,8 +1,6 @@
 ﻿
 body {
-background-image: url("backgroundPython.jpg");
-background-repeat: no-repeat;
-background-size: cover;
+background-image: url("background.jpg");
 color:white;
 
 }
@@ -12,7 +10,7 @@ h1 {
 	color:#FFCC00;
 	background-image:url("H1Image.jpg");
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
 	text-align: center;
 	background-color: #000000;
 	padding:150px;
@@ -47,6 +45,7 @@ p {
 
 main { 
 	   position: relative;
+	   
 	   margin-left: auto;
 	   margin-right: auto;
 	   margin-bottom: 10px;
@@ -58,6 +57,10 @@ main {
 	   background-color: #000000;
 	   
 }
+
+
+
+
 #authors {
 	font-size: 0.8em;
 	text-align: center;
@@ -67,17 +70,7 @@ main {
 	background-color: #333333;
 	color: #FFFFFF;
 	}
-p.historyBox {	
-	text-indent: 5ch;
-	margin-left: 0px;
-	padding: 5px ;
-}
-p.versionBox {
-	padding: 5px ;
-	margin-left: auto;
-	margin-right: auto;
-	width: 80%;
-}
+
 img {	 
 	
 	border: solid white 1px;
@@ -101,13 +94,19 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
-#h3code {
+#h2code {
 	text-align: center;
 	margin: 0;
 	color: #FFCC00;
 }
-h3.h3history {
+
+h2 {
 	text-align: center;
+	color: #FFCC00;
+}
+#h3code {
+	text-align: center;
+	margin: 0;
 	color: #FFCC00;
 }
 
@@ -115,45 +114,13 @@ h3 {
 	text-align: center;
 	color: #FFCC00;
 }
-b.simple {
-	color: #FFCC00;
-	font-size: 17px;
-}
-p.why {
-	text-align: center;
-	font-weight: bold;
-	font-size: 20px;
-	color: #FFCC00;
-	padding: 5px;
-	margin: 0px;
-	}
-
-p.summary {
-	padding: 5px;
-	text-indent: 5ch;
-	margin:auto;
-	border-style: none;
-	width: 90%;	
-}
-p.homePageP {
-	padding: 5px;
-	text-indent: 5ch;
-	margin: 20px;
-}
-	
-div.whypythonbox {
-	border-style: none;
-	margin-left: auto;
-	margin-right:auto;
-	width: 85%;
-	
-}
 
 iframe {
 	margin-left: 50px;
 	display: block;
 	margin: 0 auto;	
 }
+
 #video {
 	border-style: solid;
 	border-width:1px;
@@ -162,25 +129,6 @@ iframe {
 	width: 80%;	
 }
 
-p.powerOfPython {
-	margin: auto;
-	text-indent: ch;
-	width: 80%;
-}
-img.applicationPic {
-	border: solid white 1px;
-	padding: 10px;	
-	margin: 15px;
-	float: right;
-	word-wrap: break-word;
-	margin-right: 10px;
-	margin-bottom: 5px;
-	
-}
-img.homePageImage {
-	padding: 5px;
-	margin: 15px;
-}
 dl.description {
 	margin-left: 15px;
 	text-indent: 5ch;
