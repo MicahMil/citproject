@@ -1,7 +1,9 @@
 ﻿
 body {
-background-image: url("background.jpg");
+background-image: url("backgroundPython.jpg");
 color:white;
+background-repeat: no-repeat;
+background-size: cover;
 
 }
 
